@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register</title>
+
+        <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta content="description" name="description">
+  <meta name="google" content="notranslate" />
+  <meta content="Mashup templates have been developped by Orson.io team" name="author">
+
+  <!-- Disable tap highlight on IE -->
+  <meta name="msapplication-tap-highlight" content="no">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="static\assets\apple-icon-180x180.png">
+  <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.png') }}">
+
+  <title>Title page</title>
+
+<link href="static\main.3f6952e4.css" rel="stylesheet">
+    </head>
+
+    <header>
+        <ul class="nav navbar-nav ">
+          <li><a href="index.html" title="">Home</a></li>
+          <li><a href="works.html" title="">Works</a></li>
+          <li><a href="about.html" title="">About me</a></li>
+          <li><a href="contact.html" title="">Contact</a></li>
+          <li><a href="register.html" title="">Register</a></li>
+        </ul>
+
+
+      </div>
+    </div>
+  </nav>
+</header>
+
+<body>
+    <form method="GET"><br><br><br><br>
+
+        First Name : <input type ="text" name="firstname" required><br><br>
+        Last Name  : <input type ="text"  name="lastname" required><br><br>
+        Email  : <input type ="email" name="email" required><br><br><br>
+        Password  : <input type ="password" name="password" required minlength="8" ><br><br><br>
+        Birth Date  : <input type ="date" name="birthdate" required><br><br><br>
+
+        Gender :
+        <input type ="radio"  name="gender" value="male"> Male
+        <input type ="radio" name="gender" value="Female"> Female
+        <input type ="radio"  name="gender" value="Other"> Other
+
+        <br><br>
+        Pets:
+        <input type="checkbox" name="dog"> Dog
+        <input type="checkbox" name="cat"> Cat
+
+        <br><br>
+        Car:
+        <select name="Car">
+            <option value="">Select</option>
+            <option value="Volve" name="volvo">Volove</option>
+            <option value="Audi" name="audi">Audi</option>
+            <option value="BMW" name="bmw">BMW</option>
+
+        </select>
+
+
+        <br><br><br>
+        <input type ="Submit" value="Register">
+        <input type ="reset" value=  "Clear">
+</form>
+
+
+
+</body>
+</html>
